@@ -19,5 +19,5 @@ denied_hosts = [
 
 ## UPDATE
 
-+ Testserver läuft nun auf Port 80 zur vereinfachung (muss beim scan nicht mehr angegeben werden)
++ Testserver läuft nun auf Port 80 zur vereinfachung (muss beim scan nicht mehr angegeben werden) jedoch benötigt man dadurch root permission
 + trägt man einen alias in die /etc/hosts Datei ein (z.B. 127.0.0.1 www.test.at) muss keine Änderung an der utils.py vorgenommen werden
