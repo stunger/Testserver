@@ -16,3 +16,8 @@ denied_hosts = [
 + Alternativ kann auch das vorhandene virtualenv verwendet werden: `source env/bin/activate`
 + Ausgeführt wird der Testserver mit `python test.py`
 + Beschreibungen zu Funktion im Quellcode und auf [bottlepy](https://bottlepy.org/docs/dev/tutorial.html)
+
+## UPDATE
+
++ Testserver läuft nun auf Port 80 zur vereinfachung (muss beim scan nicht mehr angegeben werden)
++ trägt man einen alias in die /etc/hosts Datei ein (z.B. 127.0.0.1 www.test.at) muss keine Änderung an der utils.py vorgenommen werden

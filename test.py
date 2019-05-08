@@ -18,4 +18,4 @@ def index():
 # def error404(error):
 #     return 'nothing here, sorry'
 
-run(host='127.0.0.1', port=8888, debug=True)
+run(host='127.0.0.1', port=80, debug=True)
